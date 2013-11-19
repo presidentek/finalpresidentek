@@ -1,0 +1,215 @@
+/*
+Theme Name:PORT;
+*/
+
+body {
+    width: 100%;
+    background: #FAFAFA;
+}
+
+#wrapper{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Futura';
+}
+
+#header{
+    width: 250px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu{
+    float:left;
+    width: 1000px;
+    height: auto;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+#menumenu{
+    float:left;
+    width:150px;
+    display: block;
+    list-style-type:none;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.menu2{
+    float:left;
+    width:350px;
+    display: block;
+    list-style-type:none;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+a{
+    float:left;
+    width:auto;
+    text-decoration:none;
+    color: #CCCCCC;
+    padding:0em 0.5em;
+    font-weight:lighter;
+}
+
+a.hover {
+    color:#414042;
+}
+
+.hover a{
+    color: #606060;
+}
+
+.li{
+    float:left;
+}
+
+#bio{
+    float:left;
+    width:500px;
+    font-family: "Helvetica", "Arial", "Verdana";
+    font-size: 11px;
+    text-align:justify;
+}
+
+#content{
+    margin-top: 95px;
+    position: relative;
+    overflow: hidden;
+}
+
+.small{
+    width:245px;
+    height: 245px;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1); 
+}
+
+.small:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+.isotope-item {
+    z-index: 2;
+    margin-bottom: 5px;
+}
+
+.isotope-item img {
+    
+}
+
+.isotope-item {
+    overflow: hidden;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+#contenido{
+    float:left;
+    width:450px;
+    margin-top: 15px;
+}
+
+.menuproyecto{
+    float:left;
+    width: 1000px;
+    height: 20px;
+    border-top: 1px solid #CCCCCC;
+    margin-top: 10px;
+}
+
+#sitebar{
+    float:left;
+    width:1000px;
+    display: block;
+    list-style-type:none;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 0;
+    color: #CCCCCC;
+    font-weight:30;
+}
+
+#resumen{
+    float:right;
+    width:490px;
+    margin-top: 5px;
+    font-family: "Helvetica", "Arial", "Verdana";
+    font-size: 11px;
+    text-align:justify;
+}
+
+.imagensingle{
+    float:left;
+    width:490px;
+    height: auto;
+    margin-top: 15px;    
+}
+
+#tamanoimgsingle{
+    float:left;
+    max-width: 490px;
+    height:auto;
+}
+
+@media (max-width:768px){
+ #wrapper{
+    width: 768px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Futura';
+}
+
+#bio{
+    float:left;
+    width:384px;
+    font-family: "Helvetica", "Arial", "Verdana";
+    font-size: 11px;
+    text-align:justify;
+}
+
+}
+
+@media (max-width:400px){
+ #wrapper{
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Futura';
+}
+
+#content{
+    margin-top: 95px;
+    margin-left: 75px;
+    position: relative;
+    overflow: hidden;
+}
+
+#bio{
+    float:left;
+    width:200px;
+    font-family: "Helvetica", "Arial", "Verdana";
+    font-size: 11px;
+    text-align:justify;
+}
+
+
+}
